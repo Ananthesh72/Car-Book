@@ -1,0 +1,94 @@
+
+/***************** nav bar****************/
+ .logo{
+    width:50px;
+    height: 50px;
+    margin-right:auto;
+    border-radius: 20px;
+  } 
+  
+  .flex-container {
+    list-style: none;
+    display: flex;
+    padding:10px 10px;
+  
+      /* justify-content:center; */
+    background-color: rgb(2, 2, 2);
+    
+    }
+  
+  ul {
+      /* position: sticky; */
+      font-family:sans-serif;
+      display: flex;
+    }
+  ul li {
+     list-style:none;
+    }
+    ul li a{
+      font-size: 15px;
+      font-weight: 700;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: rgb(255, 255, 252);
+      padding: 25px;
+      transition: 0.5s ease;
+    }
+   
+   ul li a:hover{
+      color: rgb(220, 30, 30);
+      /* opacity: 0.2; */
+      /* filter: blur(1px); */
+    }
+  
+  
+  
+  /* 8*****************end nav 8888*************************/
+  /* .container{
+      margin: 0;
+      width:100%;
+      height:100%;
+      background: rgb(174, 20, 20);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 0px;
+  }
+  .swiper
+  {
+      width:100%;
+      height:fit-content;
+  }
+  .swiper-slide img{
+      width: 100%;
+      height:100%;
+  }
+  
+  .swiper .swiper-button-prev,.swiper .swiper-button-next
+  {
+  color:white;
+  }
+  
+  .swiper .swiper-pagination-bullet-active
+  {
+      background-color:white
+  }
+  
+   */
+  
+  /* ************************footer********************/
+   .social-iocns .fa-brands
+  {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 40px;
+      font-size: 20px;
+      color: rgb(12, 12, 12);
+      background:#fff;
+      /* margin-right: px; */
+      margin-top: 20px;
+      cursor: pointer;
+  
+  } 
